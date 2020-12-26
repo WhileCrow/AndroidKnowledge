@@ -50,11 +50,11 @@
 
 
 3. 通过InternalLeakCanary
-- （1）初始化一些检测内存泄露过程中需要的对象。
-- （2）addOnObjectRetainedListener设置可能存在内存泄漏的回调。
-- （3）通过AndroidHeapDumper进行内存泄漏之后进行 heap dump 任务。
-- （4）通过GcTrigger 手动调用 GC 再次确认内存泄露。
-- （5）启动内存泄漏检查的线程。
-- （6）通过registerVisibilityListener监听应用程序的可见性。
+- 初始化一些检测内存泄露过程中需要的对象。
+- addOnObjectRetainedListener设置可能存在内存泄漏的回调。
+- 通过AndroidHeapDumper进行内存泄漏之后进行 heap dump 任务。
+- 通过GcTrigger 手动调用 GC 再次确认内存泄露。
+- 启动内存泄漏检查的线程。
+- 通过registerVisibilityListener监听应用程序的可见性。
 
 4. 
