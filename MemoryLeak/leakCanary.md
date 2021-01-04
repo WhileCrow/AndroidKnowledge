@@ -49,7 +49,7 @@
 以上三种本质上都是通过传入的Activity.fragmentManager.registerFragmentLifecycleCallbacks进行监听fragment生命周期回调
 
 
-3. 通过InternalLeakCanary
+3. 通过InternalLeakCanary类的invoke函数：
 - 初始化一些检测内存泄露过程中需要的对象。
 - addOnObjectRetainedListener设置可能存在内存泄漏的回调。
 - 通过AndroidHeapDumper进行内存泄漏之后进行 heap dump 任务。
