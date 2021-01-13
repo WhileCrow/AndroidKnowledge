@@ -4,7 +4,7 @@
 
 1. LeakCanary config
 
-    `
+    
 	val dumpHeap: Boolean = true,
 	val dumpHeapWhenDebugging: Boolean = false,
 	val retainedVisibleThreshold: Int = 5,
@@ -16,23 +16,23 @@
 	val requestWriteExternalStoragePermission: Boolean = false,
 	val leakingObjectFinder: LeakingObjectFinder = KeyedWeakReferenceFinder,
 	val useExperimentalLeakFinders: Boolean = false
-	`
+	
 
 2. AppWatcher config
-    `    
+     
 	val watchActivities: Boolean = true,
     val watchFragments: Boolean = true,
     val watchFragmentViews: Boolean = true,
     val watchViewModels: Boolean = true,
     val watchDurationMillis: Long = TimeUnit.SECONDS.toMillis(5),
     val enabled: Boolean = true
-	`
+	
 
 3. 分离进程分析泄漏
     `dependencies {
   // debugImplementation 'com.squareup.leakcanary:leakcanary-android:${version}'
   debugImplementation 'com.squareup.leakcanary:leakcanary-android-process:${version}'
-}`
+  }`
 
 ## 原理 ##
 
