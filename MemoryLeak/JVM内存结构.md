@@ -1,5 +1,4 @@
 
-![](https://user-gold-cdn.xitu.io/2018/3/26/16261fc2d2756750?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 
 ![](https://images2015.cnblogs.com/blog/331425/201606/331425-20160623115838891-809895495.png)
