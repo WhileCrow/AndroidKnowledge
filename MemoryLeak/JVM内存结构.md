@@ -1,5 +1,5 @@
 
-
+![](https://github.com/WhileCrow/AndroidKnowledge/blob/main/MemoryLeak/pic2.png)
 
 ![](https://images2015.cnblogs.com/blog/331425/201606/331425-20160623115838891-809895495.png)
 
