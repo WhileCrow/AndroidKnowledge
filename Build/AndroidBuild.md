@@ -11,7 +11,7 @@ assets      /assets 目录：会被原封不动打包进apk中，没有R文�
 
 //R8 是在 Android Gradle 插件 3.3.0 中引入的，对于使用插件 3.4.0 及更高版本的应用和 Android 库项目，R8 现已默认处于启用状态。
 
-![](https://github.com/WhileCrow/AndroidKnowledge/tree/main/res/0001.png)
+![](https://github.com/WhileCrow/AndroidKnowledge/blob/main/res/0001.png)
 
 
 Gladle插件版本  build.gradle文件  classpath'com.android.tools.build:gradle:3.0.0' 指定
@@ -19,14 +19,14 @@ Gladle插件版本  build.gradle文件  classpath'com.android.tools.build:grad
 Gladle版本：    gradle/wrapper/gradle-wrapper.properties文件中 distributionUrl=https\://services.gradle.org/distributions/gradle-x.x.x.zip 指定
 
 
-![](https://github.com/WhileCrow/AndroidKnowledge/tree/main/res/0002.png)
+![](https://github.com/WhileCrow/AndroidKnowledge/blob/main/res/0002.png)
 
 
 
 ----------
 
 
-![](https://github.com/WhileCrow/AndroidKnowledge/tree/main/res/0003.webp)
+![](https://github.com/WhileCrow/AndroidKnowledge/blob/main/res/0003.webp)
 
 
 
@@ -73,7 +73,7 @@ implementation group: 'com.example.android', name: 'app-magic', version: '12.3'
 
 这声明了对“com.example.android”命名空间组内的 12.3 版“app-magic”库的依赖关系。
 
-![](https://github.com/WhileCrow/AndroidKnowledge/tree/main/res/0004.png)
+![](https://github.com/WhileCrow/AndroidKnowledge/blob/main/res/0004.png)
 
 
 
@@ -107,4 +107,4 @@ Google Play 结算库
 Firebase
 
 
-![](https://github.com/WhileCrow/AndroidKnowledge/tree/main/res/0005.png)
+![](https://github.com/WhileCrow/AndroidKnowledge/blob/main/res/0005.png)
